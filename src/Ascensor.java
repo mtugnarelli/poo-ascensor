@@ -3,6 +3,7 @@ class Ascensor {
 
     private int pisoActual;
     private int ultimoPiso;
+    private int desplazamientoTotal;
     
     /**
      * pre : 'cantidadDePisos' está en el rango [1..141]
@@ -22,6 +23,8 @@ class Ascensor {
         
             ultimoPiso = 141;
         }
+        
+        desplazamientoTotal = 0;
     }
     
     /**
@@ -62,8 +65,18 @@ class Ascensor {
                 desplazamiento = pisoActual - pisoAlQueIr;
             }
             pisoActual = pisoAlQueIr;
+            desplazamientoTotal = desplazamientoTotal + desplazamiento;
         }
         
         return desplazamiento;
+    }
+    
+    /**
+     * post: devuelve la cantidad total de pisos por las que
+     *       se ha desplazado en ascensor hasta el momento.
+     */
+    public int calcularDesplazamientoTotal() {
+        
+        return desplazamientoTotal;
     }
 }

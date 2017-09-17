@@ -1,6 +1,6 @@
-UNTreF - Algoritmos y ProgramaciÃ³n 1
+UNTreF - Algoritmos y Programación 1
 
-# PrÃ¡ctica de Encapsulamiento - Ascensor
+# Práctica de Encapsulamiento - Ascensor
 
 ## Ejercicio 1
 
@@ -10,20 +10,29 @@ UNTreF - Algoritmos y ProgramaciÃ³n 1
 
 Implementar la clase `Ascensor` con las siguientes operaciones:
 
-* Inicializarlo recibiendo como parÃ¡metro la cantidad de pisos por los que se mueve (sin considerar la planta baja).
+* Inicializarlo recibiendo como parámetro la cantidad de pisos por los que se mueve (sin considerar la planta baja).
 
-* Devolver el nÃºmero de piso en el que se encuentra, considerando 0 como la planta baja.
+* Devolver el número de piso en el que se encuentra, considerando 0 como la planta baja.
 
-* Ir a un piso. Debe moverlo y devolver la cantidad de pisos que el ascensor se moviÃ³ para llegar al piso indicado. 
+* Ir a un piso. Debe moverlo y devolver la cantidad de pisos que el ascensor se movió para llegar al piso indicado. 
 
-* Devolver el Ãºltimo piso al que puede ir el ascensor.
+* Devolver el último piso al que puede ir el ascensor.
 
 
-### SoluciÃ³n
+### Solución
 
 [`Ascensor`](../punto-01/src/Ascensor.java)
 
 
+## Ejercicio 2
+
+### Enunciado
+
+Agregar al `Ascensor` un método que devuelva la cantidad total de pisos desplazados. 
+
+### Solución
+
+[`Ascensor`](../punto-02/src/Ascensor.java)
 
 
 
