@@ -44,5 +44,12 @@ Agregar al `Ascensor` un método que devuelva el máximo desplazamiento realizado.
 
 [`Ascensor`](../punto-03/src/Ascensor.java)
 
+### Mejora
+
+Modularización de la implementación, llevando la actualización del máximo desplazamiento al método privado 'void actualizarDesplazamientoMaximo(int)'.
+
+[`Ascensor`](../punto-03-b/src/Ascensor.java)
+
+
 
 [ascensor]: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Feature_elevators.svg/200px-Feature_elevators.svg.png "Ascensor"

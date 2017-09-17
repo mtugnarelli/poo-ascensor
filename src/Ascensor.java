@@ -68,11 +68,7 @@ class Ascensor {
             }
             pisoActual = pisoAlQueIr;
             desplazamientoTotal = desplazamientoTotal + desplazamiento;
-
-            if (desplazamiento > desplazamientoMaximo) {
-                
-                desplazamientoMaximo = desplazamiento;
-            }
+            actualizarDesplazamientoMaximo(desplazamiento);
         }
         
         return desplazamiento;
@@ -96,4 +92,15 @@ class Ascensor {
         return desplazamientoMaximo;
     }
 
+    /**
+     * pre : el ascensor se acaba de mover.
+     * post: actualiza el desplazamiento máximo si corresponde.
+     */
+    private void actualizarDesplazamientoMaximo(int desplazamientoActual) {
+        
+        if (desplazamientoActual > desplazamientoMaximo) {
+            
+            desplazamientoMaximo = desplazamientoActual;
+        }
+    }
 }
