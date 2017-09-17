@@ -94,6 +94,10 @@ class Ascensor {
         return desplazamientoMaximo;
     }
     
+    /**
+     * post: devuelve el mínimo desplazamiento sufrido por el 
+     *       ascensor hasta el momento.
+     */
     public int calcularDesplazamientoMinimo() {
         
         return desplazamientoMinimo;
