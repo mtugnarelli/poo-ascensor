@@ -50,6 +50,14 @@ Modularización de la implementación, llevando la actualización del máximo despla
 
 [`Ascensor`](../punto-03-b/src/Ascensor.java)
 
+## Ejercicio 4
 
+### Enunciado
+
+Agregar al `Ascensor` un método que devuelva el mínimo desplazamiento realizado. 
+
+### Solución
+
+[`Ascensor`](../punto-04/src/Ascensor.java)
 
 [ascensor]: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Feature_elevators.svg/200px-Feature_elevators.svg.png "Ascensor"
