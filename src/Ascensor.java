@@ -91,7 +91,7 @@ class Ascensor {
      * post: devuelve el máximo desplazamiento sufrido por el 
      *       ascensor hasta el momento.
      */
-    public int obtenerDesplamientoMaximo() {
+    public int calcularDesplazamientoMaximo() {
         
         return desplazamientoMaximo;
     }
