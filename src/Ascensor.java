@@ -4,6 +4,7 @@ class Ascensor {
     private int pisoActual;
     private int ultimoPiso;
     private int desplazamientoTotal;
+    private int desplazamientoMaximo;
     
     /**
      * pre : 'cantidadDePisos' está en el rango [1..141]
@@ -25,6 +26,7 @@ class Ascensor {
         }
         
         desplazamientoTotal = 0;
+        desplazamientoMaximo = 0;
     }
     
     /**
@@ -66,6 +68,11 @@ class Ascensor {
             }
             pisoActual = pisoAlQueIr;
             desplazamientoTotal = desplazamientoTotal + desplazamiento;
+
+            if (desplazamiento > desplazamientoMaximo) {
+                
+                desplazamientoMaximo = desplazamiento;
+            }
         }
         
         return desplazamiento;
@@ -79,4 +86,14 @@ class Ascensor {
         
         return desplazamientoTotal;
     }
+
+    /**
+     * post: devuelve el máximo desplazamiento sufrido por el 
+     *       ascensor hasta el momento.
+     */
+    public int obtenerDesplamientoMaximo() {
+        
+        return desplazamientoMaximo;
+    }
+
 }

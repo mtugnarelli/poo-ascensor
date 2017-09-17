@@ -34,6 +34,15 @@ Agregar al `Ascensor` un método que devuelva la cantidad total de pisos desplaza
 
 [`Ascensor`](../punto-02/src/Ascensor.java)
 
+## Ejercicio 3
+
+### Enunciado
+
+Agregar al `Ascensor` un método que devuelva el máximo desplazamiento realizado. 
+
+### Solución
+
+[`Ascensor`](../punto-03/src/Ascensor.java)
 
 
 [ascensor]: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Feature_elevators.svg/200px-Feature_elevators.svg.png "Ascensor"
