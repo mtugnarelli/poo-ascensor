@@ -59,14 +59,7 @@ class Ascensor {
         
         if ((pisoAlQueIr >=0) && (pisoAlQueIr <= ultimoPiso)) {
             
-            if (pisoAlQueIr > pisoActual) {
-                
-                desplazamiento = pisoAlQueIr - pisoActual;
-
-            } else {
-                
-                desplazamiento = pisoActual - pisoAlQueIr;
-            }
+            desplazamiento = consultarDistanciaAlPiso(pisoAlQueIr);
             pisoActual = pisoAlQueIr;
             desplazamientoTotal = desplazamientoTotal + desplazamiento;
             actualizarDesplazamientoMaximo(desplazamiento);
@@ -103,6 +96,26 @@ class Ascensor {
         return desplazamientoMinimo;
     }
 
+    /**
+     * post: devuelve la cantidad de pisos que hay distancia
+     *       entre el piso actual y 'piso'.
+     */
+    public int consultarDistanciaAlPiso(int piso) {
+        
+        int distancia;
+
+        if (pisoActual > piso) {
+            
+            distancia = pisoActual - piso;
+
+        } else {
+        
+            distancia = piso - pisoActual;
+        }
+            
+        return distancia;
+    }
+    
     /**
      * pre : el ascensor se acaba de mover.
      * post: actualiza el desplazamiento máximo si corresponde.
