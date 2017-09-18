@@ -2,11 +2,11 @@ UNTreF - Algoritmos y Programación 1
 
 # Práctica de Encapsulamiento - Ascensor
 
+![Ascensor][ascensor]
+
 ## Ejercicio 1
 
 ### Enunciado
-
-![Ascensor][ascensor]
 
 Implementar la clase `Ascensor` con las siguientes operaciones:
 
@@ -21,7 +21,7 @@ Implementar la clase `Ascensor` con las siguientes operaciones:
 
 ### Solución
 
-[`Ascensor`](../punto-01/src/Ascensor.java)
+* clase [`Ascensor`](../punto-01/src/Ascensor.java)
 
 
 ## Ejercicio 2
@@ -32,7 +32,7 @@ Agregar al `Ascensor` un método que devuelva la cantidad total de pisos desplaza
 
 ### Solución
 
-[`Ascensor`](../punto-02/src/Ascensor.java)
+* clase [`Ascensor`](../punto-02/src/Ascensor.java)
 
 ## Ejercicio 3
 
@@ -42,13 +42,13 @@ Agregar al `Ascensor` un método que devuelva el máximo desplazamiento realizado.
 
 ### Solución
 
-[`Ascensor`](../punto-03/src/Ascensor.java)
+* clase [`Ascensor`](../punto-03/src/Ascensor.java)
 
 ### Mejora
 
-Modularización de la implementación, llevando la actualización del máximo desplazamiento al método privado 'void actualizarDesplazamientoMaximo(int)'.
+Modularización de la implementación, llevando la actualización del máximo desplazamiento al método privado `void actualizarDesplazamientoMaximo(int)`.
 
-[`Ascensor`](../punto-03-b/src/Ascensor.java)
+* clase [`Ascensor`](../punto-03-b/src/Ascensor.java)
 
 ## Ejercicio 4
 
@@ -58,7 +58,7 @@ Agregar al `Ascensor` un método que devuelva el mínimo desplazamiento realizado.
 
 ### Solución
 
-[`Ascensor`](../punto-04/src/Ascensor.java)
+* clase [`Ascensor`](../punto-04/src/Ascensor.java)
 
 ## Ejercicio 5
 
@@ -78,7 +78,10 @@ Implementar la clase `Ascensorista`, tal que cuente con dos `Ascensores` (derech
 
 ### Solución
 
-[`Ascensor`](../punto-05/src/Ascensor.java)
+* clase [`Ascensor`](../punto-05/src/Ascensor.java)
+
+* clase [`Ascensorista`](../punto-05/src/Ascensorista.java)
+
 
 ### Ejemplo de uso
 
